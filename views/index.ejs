@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Global COVID-19 FEED</h1>
+    <div class="Cases_page">
+        <% corona_virus.forEach(function(cases){ %>
+            <div class="cards">
+                <h4> <%= cases.Combined_Key %> </h4>
+                <ul>
+                    <li>Confirmed cases : <%= cases.Confirmed %></li> 
+                    <li>Active cases : <%= cases.Active %></li> 
+                    <li>Recoveries : <%= cases.Recovered %></li> 
+                    <li>No. of Deaths : <%= cases.Deaths %></li> 
+                </ul>  
+            </div>
+        <% }); %>
+        </div>
+
+</body>
+</html>

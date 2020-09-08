@@ -1,0 +1,17 @@
+{
+  "name": "week5-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Reuben Woode Akerson",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.1",
+    "nodemon": "^2.0.4"
+  }
+}

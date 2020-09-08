@@ -1,0 +1,41 @@
+body {
+  font-family: serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(147, 228, 18);
+  font-family: serif;
+  border: 1px solid rgba(246, 246, 243, 0.089);
+  text-align: left;
+  border-radius: 0.7rem;
+  padding: 5px;
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.cards:hover{
+  background-color: rgb(251, 251, 247);
+  border-radius: 0.7rem;
+}
+
+.Cases_page {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  font-size: 30px;
+  /* background-color: rgba(219, 214, 214, 0.863); */
+}
+
+h4 {
+  text-align: center;
+}
+
